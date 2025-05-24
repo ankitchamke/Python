@@ -1,0 +1,10 @@
+d = {}
+
+name = input("Enter Name: ")
+lang = input("Enter fav language: ")
+d.update({name:lang})
+name = input("Enter Name: ")
+lang = input("Enter fav language: ")
+d.update({name:lang})
+
+print(d)

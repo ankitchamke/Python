@@ -108,3 +108,44 @@
 
 # else:
 #     print("No Python is not present")
+
+
+# 8. Write a program to make a copy of a text file “this.txt”
+
+# with open("this.txt") as f:
+#     data = f.read()
+    
+# with open("copy-this.txt", "w") as fc:
+#     fc.write(data)
+
+
+
+# 9. Write a program to find out whether a file is identical & matches the content of another file.--------------------------
+
+# with open("this.txt") as f:
+#     data = f.read()
+    
+# with open("copy-this.txt") as fx:
+#     datax = fx.read()
+    
+# if(data == datax):
+#     print("same")
+# else:
+#     print("not same")
+
+
+
+# 10. Write a program to wipe out the content of a file using python.---------------------------------------------------------
+
+# with open("wipe.txt", "w") as wipe:
+#     clear = wipe.write("")
+
+
+
+# 11. Write a python program to rename a file to “renamed_by_python.txt-------------------------------------------------------
+
+with open("old.txt") as f:
+    content = f.read()
+    
+with open("renamed_by_python.txt", "w") as f:
+    f.write(content)
